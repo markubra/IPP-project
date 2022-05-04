@@ -5,7 +5,7 @@
 
 ### start
 
-Program `parse.php` začíná podmínkou, ve které zkontroluji hodnoty argumentů. Pokud byl zadán `--help` -- vytisknu nápovědu. Jinak pomocí funkce `ob_start` otevřu `buffer`, do kterého postupně vytisknu XML a spustim `main`. Pokud kontrola `IPPcode22` proběhla bez chyb, vytisknu obsah `buffer` na `stdout`. Pokud byl zadán argument `--stats==file` -- vytisknu do `file` požadované v následujících parametrech statistiky.
+Program `parse.php` začíná podmínkou, ve které zkontroluji hodnoty argumentů. Pokud byl zadán `--help` -- vytisknu nápovědu. Jinak pomocí funkce `ob_start` otevřu `buffer`, do kterého postupně vytisknu XML a spustim `main`. Pokud kontrola `IPPcode22` proběhla bez chyb, vytisknu obsah `buffer` na `stdout`. Pokud byl zadán argument `--stats=file` -- vytisknu do `file` požadované v následujících parametrech statistiky.
 
 ### main
 
